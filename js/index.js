@@ -7,6 +7,7 @@ let submit = document.querySelector('#submit');
 form.addEventListener('submit',function(e){
     e.preventDefault();
 let element = document.createElement('li');
+element.classList.add('item');
 element.innerHTML = text.value;
 menu.append(element);
 text.value ='';

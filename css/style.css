@@ -8,10 +8,9 @@ body{
 }
 
 .content{
-    width:600px;
-    height: 400px;
-    overflow: hidden;
-    margin:auto;
+    width:80%;
+    min-height: 400px;
+    margin: auto;
     box-sizing:border-box;
     padding-top: 40px;
     text-align: center;
@@ -22,9 +21,9 @@ margin-top: 20px;
 }
 
 .content-form{
-
     margin-top: 40px;
 }
+
 
 input[type='submit']{
     border:1px solid black;
@@ -52,16 +51,27 @@ td{
     text-align: center;
 }
 
-
 #submit{
     height:30px;
     width:60%;
     background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#submit:hover{
+    box-shadow: 0 0 2px 2px black;
 }
 
 #text{
     height: 30px;
     width:80%;
     background-color: white;
+}
+
+.item{
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
